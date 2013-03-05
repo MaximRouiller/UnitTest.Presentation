@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
 using System;
 
-namespace UnitTest.Presentation
+namespace UnitTest.Presentation.Demo1
 {
+    //todo: refactor to use abstraction instead of implementation
     public class Service
     {
         private readonly CustomerRepository _repository;
